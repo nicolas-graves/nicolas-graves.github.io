@@ -21,12 +21,16 @@ title: Passe à l'action !
         </div>
       </div>
       <div class="flex-1 bg-green-100 shadow-lg p-5 m-2 rounded-lg relative">
-        <p id="message-text">
-          Jour J ! Petit rappel d’aller voter aux élections européennes 😊 C’est une élection à un seul tour.<br>
-          Les bureaux de vote sont ouverts jusqu’à 18h (et 20h dans les grandes villes mais mieux vaut y aller avant).<br><br>
-          Pour vérifier son bureau de vote : <a href="https://www.elections.interieur.gouv.fr/mes-demarches/je-trouve-mon-bureau-de-vote" class="text-blue-500 underline">https://www.elections.interieur.gouv.fr/mes-demarches/je-trouve-mon-bureau-de-vote</a><br><br>
-          À bientôt 💌
-        </p>
+        <form>
+          <textarea id="message-text" rows="10" cols="50" class="bg-green-100">
+            Jour J ! Petit rappel d’aller voter aux élections européennes 😊 C’est une élection à un seul tour.
+            Les bureaux de vote sont ouverts jusqu’à 18h (et 20h dans les grandes villes mais mieux vaut y aller avant).
+
+            Pour vérifier son bureau de vote : https://www.elections.interieur.gouv.fr/mes-demarches/je-trouve-mon-bureau-de-vote
+
+            À bientôt 💌
+          </textarea>
+        </form>
         <div class="flex space-x-2 mt-4">
           <button onclick="copyText()" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Copier</button>
           <button onclick="sendWhatsApp()" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-300">WhatsApp</button>
@@ -37,24 +41,21 @@ title: Passe à l'action !
     </div>
   </div>
 
-<script>
-  const messageText = `Jour J ! Petit rappel d’aller voter aux élections européennes 😊 C’est une élection à un seul tour.
-  Les bureaux de vote sont ouverts jusqu’à 18h (et 20h dans les grandes villes mais mieux vaut y aller avant).
-  Pour vérifier son bureau de vote : https://www.elections.interieur.gouv.fr/mes-demarches/je-trouve-mon-bureau-de-vote
-  À bientôt 💌`;
+  <script>
+    function copyText() {
+      const messageText = document.getElementById('message-text').value;
+      navigator.clipboard.writeText(messageText);
+    }
 
-  function copyText() {
-  navigator.clipboard.writeText(messageText);
-  }
+    function sendWhatsApp() {
+      const messageText = document.getElementById('message-text').value;
+      window.open(`https://wa.me/?text=${encodeURIComponent(messageText)}`, '_blank');
+    }
 
-  function sendWhatsApp() {
-  window.open(`https://wa.me/?text=${encodeURIComponent(messageText)}`, '_blank');
-  }
-
-  function sendEmail() {
-  const subject = "Petit rappel d’aller voter";
-  const body = messageText.replace(/\n/g, '%0D%0A');
-  window.location.href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-  }
-</script>
+    function sendEmail() {
+    const messageText = document.getElementById('message-text').value;
+    const subject = "Petit rappel d’aller voter";
+        window.open(`mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(messageText)}`, '_blank');
+    }
+  </script>
 </body>
