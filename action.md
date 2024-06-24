@@ -7,18 +7,18 @@ title: Passe à l'action !
   <div class="flex h-screen items-center justify-center">
     <div class="flex flex-row">
       <div class="flex flex-1 items-center justify-center p-5 font-semibold">
-      <div class="p-5 m-2 font-semibold">
-          <ul class="list-decimal space-y-3">
-            <li>
-              <!-- <span class="font-bold">1.</span> -->
+        <div class="p-5 m-2 font-semibold">
+          <ul class="space-y-4">
+            <li class="flex items-center">
+              <span class="flex items-center justify-center w-8 h-8 mr-3 bg-gray-800 text-white rounded-full flex-shrink-0">1</span>
               <span>Voici le message pour vos proches</span>
             </li>
-            <li>
-              <!-- <span class="font-bold">2.</span> -->
+            <li class="flex items-center">
+              <span class="flex items-center justify-center w-8 h-8 mr-3 bg-gray-800 text-white rounded-full flex-shrink-0">2</span>
               <span>Vous pouvez l'envoyer en 1 clic dans toutes vos boucles, et même le modifier</span>
             </li>
           </ul>
-      </div>
+        </div>
       </div>
       <div class="flex-1 bg-green-100 shadow-lg p-5 m-2 rounded-lg relative">
         <p id="message-text">
