@@ -1,7 +1,19 @@
 ---
 layout: default
-title: Accueil
+title: Home
 ---
 
-<h1>Personne n'est mieux placé que vous pour parler des élections à vos proches.</h1>
-<a class="button" href="/action">Je leur écris</a>
+<body>
+  <div class="flex h-screen items-center justify-center">
+    <div class="mx-auto">
+      <div class="text-center text-xl font-semibold mb-4">
+        Personne n'est <u>mieux placé</u> que vous pour parler des élections à vos proches.
+      </div>
+      <div class="flex justify-center">
+        <button class="bg-purple-500 rounded px-4 py-2 text-white hover:text-purple-500 hover:bg-white">
+          <a href="/action" class="font-semibold">Je leur écris</a>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>

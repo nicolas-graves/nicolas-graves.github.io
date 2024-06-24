@@ -1,71 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="fr">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            background-color: #f44e07;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #f44e07;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin-top: 20px;
-            background-color: white;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .columns {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 20px;
-        }
-        .column {
-            flex: 1;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            background-color: #f44e07;
-            margin: 10px;
-            border-radius: 10px;
-        }
-        .todo-list {
-            text-align: left;
-        }
-        .todo-list li {
-            margin: 10px 0;
-        }
-        .message-column {
-            background-color: #e1ffc7;
-            position: relative;
-            border-radius: 10px 0 10px 10px;
-        }
-        .message-column::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            right: -15px;
-            width: 0;
-            height: 0;
-            border-left: 15px solid #e1ffc7;
-            border-bottom: 15px solid transparent;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        {{ content }}
-    </div>
-</body>
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/styles.css" | relative_url }}">
+  </head>
+  {{ content }}
 </html>

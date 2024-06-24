@@ -28,4 +28,5 @@
   (specifications->packages
    (list "ruby"  ; even when propagated, essential for $GEM_PATH
          "jekyll"
-         "ruby-minima"))))
+         "ruby-minima"
+         "node"))))
