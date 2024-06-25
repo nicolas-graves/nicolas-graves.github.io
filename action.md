@@ -35,7 +35,6 @@ Pour vérifier son bureau de vote : https://www.elections.interieur.gouv.fr/mes-
   <button onclick="sendWhatsApp()" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-300">WhatsApp</button>
   <button onclick="sendEmail()" class="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition duration-300">Email</button>
   <button onclick="sendTelegram()" class="bg-blue-300 text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition duration-300">Telegram</button>
-  <button onclick="sendSignal()" class="bg-purple-500 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition duration-300">Signal</button>
   <button onclick="sendMessenger()" class="bg-indigo-500 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition duration-300">Messenger</button>
   <button onclick="sendSMS()" class="bg-yellow-500 text-white px-4 py-2 rounded-lg hover:bg-yellow-700 transition duration-300">SMS</button>
 </div>
@@ -64,11 +63,6 @@ Pour vérifier son bureau de vote : https://www.elections.interieur.gouv.fr/mes-
   function sendTelegram() {
   const messageText = document.getElementById('message-text').value;
   window.open(`tg://msg?text=${encodeURIComponent(messageText)}`, '_blank');
-}
-
-function sendSignal() {
-  const messageText = document.getElementById('message-text').value;
-  window.open(`sgnl://send?text=${encodeURIComponent(messageText)}`, '_blank');
 }
 
 function sendMessenger() {
