@@ -25,11 +25,11 @@ title: Passe à l'action !
     <form class="flex flex-col basis-3/5 w-full">
       <textarea id="message-text" class="p-2 min-w-full min-h-64 resize-none hover:resize shadow-lg rounded-lg bg-lightgreen focus:ring-2 font-['Helvetica'] text-sm">Jour J ! Petit rappel d’aller voter aux élections européennes 😊 C’est une élection à un seul tour.
 
-        Les bureaux de vote sont ouverts jusqu’à 18h (et 20h dans les grandes villes mais mieux vaut y aller avant).
+Les bureaux de vote sont ouverts jusqu’à 18h (et 20h dans les grandes villes mais mieux vaut y aller avant).
 
-        Pour vérifier son bureau de vote : https://www.elections.interieur.gouv.fr/mes-demarches/je-trouve-mon-bureau-de-vote
+Pour vérifier son bureau de vote : https://www.elections.interieur.gouv.fr/mes-demarches/je-trouve-mon-bureau-de-vote
 
-        À bientôt 💌</textarea>
+À bientôt 💌</textarea>
       <div class="flex justify-around mt-4">
         <button onclick="copyText()" class="icon-button"><img src="assets/img/noun-copy-5631678.svg" alt="WhatsApp" width="50" height="60"></button>
         <button onclick="sendWhatsApp()" class="icon-button"><img src="assets/img/whatsapp.svg" alt="WhatsApp" width="45" height="45"></button>
