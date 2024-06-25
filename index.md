@@ -14,3 +14,6 @@ title: Home
     </div>
   </div>
 </div>
+<div class="m-1 align-left">
+  <p class="text-right font-semibold px-2"><a href="/legal">Mentions légales</a></p>
+</div>
