@@ -2,21 +2,15 @@
 layout: default
 title: Home
 ---
-
-<body>
-  <div>
-    <img class="mt-2 ml-4 h-20" src="assets/img/light-1.png">
-  </div>
-  <div class="flex h-screen items-center justify-center">
-    <div class="mx-auto">
-      <div class="text-center text-xl font-semibold mb-4">
-        Personne n'est <u>mieux placé</u> que vous pour parler des élections à vos proches.
-      </div>
-      <div class="flex justify-center">
-        <button class="bg-purple-500 rounded px-4 py-2 text-white hover:text-purple-500 hover:bg-white">
-          <a href="/action" class="font-semibold">Je leur écris</a>
-        </button>
-      </div>
+<div class="flex h-screen items-center justify-center">
+  <div class="mx-auto">
+    <div class="text-center text-xl font-semibold mb-4">
+      Personne n'est <u>mieux placé</u> que vous pour parler des élections à vos proches.
+    </div>
+    <div class="flex justify-center">
+      <button class="bg-purple-500 rounded px-4 py-2 text-white hover:text-purple-500 hover:bg-white">
+        <a href="/action" class="font-semibold">Je leur écris</a>
+      </button>
     </div>
   </div>
-</body>
+</div>
