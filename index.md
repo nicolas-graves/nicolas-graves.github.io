@@ -4,6 +4,9 @@ title: Home
 ---
 
 <body>
+  <div>
+    <img class="mt-2 ml-4 h-20" src="assets/img/light-1.png">
+  </div>
   <div class="flex h-screen items-center justify-center">
     <div class="mx-auto">
       <div class="text-center text-xl font-semibold mb-4">
