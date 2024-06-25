@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+    @font-face {
+        font-family: 'AnekLatin';
+        font-style: normal;
+        font-weight: 400;
+        src: url(/assets/fonts/AnekLatin-Regular.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'AnekLatin';
+        font-style: semibold;
+        font-weight: 600;
+        src: url(/assets/fonts/AnekLatin-SemiBold.ttf) format('truetype');
+    }
+}
+
 body{
     @apply bg-orange;
 }

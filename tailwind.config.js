@@ -10,6 +10,9 @@ module.exports = {
                 'orange': '#f44e07',
             }
         },
+        fontFamily: {
+            sans: ["AnekLatin"],
+        },
     },
     variants: {},
     plugins: [
