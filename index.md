@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<div class="flex h-screen items-center justify-center">
+<div class="flex h-full items-center justify-center">
   <div class="mx-auto">
     <div class="text-center text-xl font-semibold mb-4">
       Personne n'est <u>mieux placé</u> que vous pour parler des élections à vos proches.

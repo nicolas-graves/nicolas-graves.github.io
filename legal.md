@@ -2,7 +2,7 @@
 layout: default
 title: Mentions légales
 ---
-<div class="flex flex-col h-screen items-center bg-darkblue px-8 pt-8">
+<div class="flex flex-col h-full items-center bg-darkblue px-8 pt-8">
   <div class="text-white text-4xl font-semibold mb-8">
     Mentions légales
   </div>
