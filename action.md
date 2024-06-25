@@ -30,14 +30,14 @@ Les bureaux de vote sont ouverts jusqu’à 18h (et 20h dans les grandes villes 
 Pour vérifier son bureau de vote : https://www.elections.interieur.gouv.fr/mes-demarches/je-trouve-mon-bureau-de-vote
 
 À bientôt 💌</textarea>
-<div class="flex justify-around mt-4">
-  <button onclick="copyText()" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Copier</button>
-  <button onclick="sendWhatsApp()" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-300">WhatsApp</button>
-  <button onclick="sendEmail()" class="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition duration-300">Email</button>
-  <button onclick="sendTelegram()" class="bg-blue-300 text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition duration-300">Telegram</button>
-  <button onclick="sendMessenger()" class="bg-indigo-500 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition duration-300">Messenger</button>
-  <button onclick="sendSMS()" class="bg-yellow-500 text-white px-4 py-2 rounded-lg hover:bg-yellow-700 transition duration-300">SMS</button>
-</div>
+      <div class="flex justify-around mt-4">
+        <button onclick="copyText()" class="icon-button"><img src="assets/img/noun-copy-5631678.svg" alt="WhatsApp" width="50" height="60"></button>
+        <button onclick="sendWhatsApp()" class="icon-button"><img src="assets/img/whatsapp.svg" alt="WhatsApp" width="45" height="45"></button>
+        <button onclick="sendTelegram()" class="icon-button"><img src="assets/img/telegram.svg" alt="Telegram" width="45" height="45"></button>
+        <button onclick="sendMessenger()" class="icon-button"><img src="assets/img/messenger.svg" alt="Telegram" width="60" height="60"></button>
+        <button onclick="sendSMS()" class="icon-button"><img src="assets/img/noun-message-6619249.svg" alt="Email" width="60" height="60"></button>
+        <button onclick="sendEmail()" class="icon-button"><img src="assets/img/noun-email-6970519.svg" alt="Email" width="60" height="60"></button>
+      </div>
     </form>
   </div>
 
