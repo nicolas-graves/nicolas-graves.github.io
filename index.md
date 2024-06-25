@@ -5,7 +5,7 @@ title: Home
 <div class="flex h-full items-center justify-center">
   <div class="mx-auto">
     <div class="text-center text-xl font-semibold mb-4">
-      Personne n'est <u>mieux placé</u> que vous pour parler des élections à vos proches.
+      Personne n'est&nbsp;<span class="bg-darkblue text-white">&nbsp;mieux placé&nbsp;</span>&nbsp;que vous pour parler des élections à vos proches.
     </div>
     <div class="flex justify-center">
       <button class="bg-darkblue rounded px-4 py-2 text-white hover:text-darkblue hover:bg-white">

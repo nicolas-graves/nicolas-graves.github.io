@@ -23,7 +23,7 @@ title: Passe à l'action !
       </div>
     </div>
     <form class="flex flex-col basis-3/5 w-full">
-      <textarea id="message-text" class="p-2 min-w-full min-h-72 resize-none hover:resize shadow-lg rounded-lg bg-green-200 focus:ring-2">Jour J ! Petit rappel d’aller voter aux élections européennes 😊 C’est une élection à un seul tour.
+      <textarea id="message-text" class="p-2 min-w-full min-h-64 resize-none hover:resize shadow-lg rounded-lg bg-lightgreen focus:ring-2 font-['Helvetica'] text-sm">Jour J ! Petit rappel d’aller voter aux élections européennes 😊 C’est une élection à un seul tour.
 
 Les bureaux de vote sont ouverts jusqu’à 18h (et 20h dans les grandes villes mais mieux vaut y aller avant).
 
