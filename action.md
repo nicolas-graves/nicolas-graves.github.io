@@ -52,6 +52,8 @@ Pour vérifier son bureau de vote : https://www.elections.interieur.gouv.fr/mes-
   function sendEmail() {
   const messageText = document.getElementById('message-text').value;
   const subject = "Petit rappel d’aller voter";
-  window.open(`mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(messageText)}`, '_blank');
+  const mailtoLink = document.createElement('a');
+  mailtoLink.href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(messageText)}`;
+  mailtoLink.click();
   }
 </script>
