@@ -8,16 +8,16 @@ title: Passe à l'action !
       <div class="p-3 m-2 font-semibold">
         <ul class="space-y-4">
           <li class="flex items-center">
-            <span>Vous êtes au top</span>
+            <span class="text-xl">Vous êtes au top</span>
             <img class="h-4 ml-2" src="assets/img/noun-heart-6961246.svg" alt="<3">
           </li>
           <li class="flex items-center">
             <span class="flex items-center justify-center w-8 h-8 mr-3 bg-gray-800 text-white rounded-full flex-shrink-0">1</span>
-            <span>Voici le message pour vos proches</span>
+            <span class="text-xl">Voici le message pour vos proches</span>
           </li>
           <li class="flex items-center">
             <span class="flex items-center justify-center w-8 h-8 mr-3 bg-gray-800 text-white rounded-full flex-shrink-0">2</span>
-            <span>Vous pouvez l'envoyer en 1 clic dans toutes vos boucles, et même le modifier</span>
+            <span class="text-xl">Vous pouvez l'envoyer en 1 clic dans toutes vos boucles, et même le modifier</span>
           </li>
         </ul>
       </div>
