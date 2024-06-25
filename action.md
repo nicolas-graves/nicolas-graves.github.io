@@ -2,9 +2,8 @@
 layout: default
 title: Passe à l'action !
 ---
-
-<div class="flex h-dvh items-center justify-center">
-  <div class="flex flex-row">
+<div class="flex h-full items-center justify-center">
+  <div class="flex flex-col md:flex-row">
     <div class="flex flex-1 items-center justify-center p-5 font-semibold">
       <div class="p-5 m-2 font-semibold">
         <ul class="space-y-4">
