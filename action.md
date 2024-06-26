@@ -71,7 +71,7 @@ Pour vérifier son bureau de vote : https://www.elections.interieur.gouv.fr/mes-
 
 function sendMessenger() {
   const messageText = document.getElementById('message-text').value;
-  window.open(`fb-messenger://share/?text=${encodeURIComponent(messageText)}`, '_blank');
+  window.open(`fb-messenger://share?text=${encodeURIComponent(messageText)}`, '_blank');
 }
 
 function sendSMS() {
